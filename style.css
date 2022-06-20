@@ -98,6 +98,11 @@ form button {
     padding: .5rem;
     background-color: #71E373;
     border: none;
+    -webkit-appearance: none !important;
+    -moz-appearance: none;
+    appearance: none;
+    color: #000 !important;
+    font-size: 1rem !important;
 }
 @media screen and (min-width: 712px) {
     form input[type="text"] {
